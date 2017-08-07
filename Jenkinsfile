@@ -93,13 +93,13 @@ node() {
 
 //            sh "mvn test -P functional-test"
     }
-
+/*
     stage('Install') {
 
         rtMaven.run pom: 'pom.xml', goals: 'install', buildInfo: buildInfo
 
     }
-
+*/
 
 
 
