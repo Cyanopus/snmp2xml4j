@@ -48,15 +48,15 @@ node() {
 
     stage('Preparation') {
         checkout([$class           : 'GitSCM', branches: [[name: "*/${BRANCH_NAME}"]],
-                  userRemoteConfigs: [[url: "https://github.com/iTransformers/snmp2xml4j.git"]]])
+                  userRemoteConfigs: [[url: "https://github.com/Cyanopus/snmp2xml4jval.git"]]])
 
-        server = Artifactory.server '819081409@1432230914724';
+        server = Artifactory.server '1';
         rtMaven = Artifactory.newMavenBuild()
         rtMaven.tool = 'M3'
         //withMaven(maven: 'M3', mavenSettingsConfig: '55234634-bcc4-4034-9a07-a1df766290f5');
 
         // Deceide where to release snapshots and where releases
-        rtMaven.deployer releaseRepo: 'ext-release-local', snapshotRepo: 'ext-snapshot-local', server: server
+        rtMaven.deployer releaseRepo: 'libs-release-local', snapshotRepo: 'libs-snapshot-local', server: server
         rtMaven.resolver releaseRepo: 'libs-release', snapshotRepo: 'libs-snapshot', server: server
         // Disable artifacts deployment during Maven run
         rtMaven.deployer.deployArtifacts = false

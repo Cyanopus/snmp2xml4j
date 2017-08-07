@@ -224,12 +224,12 @@
             <repository>
         	<id>central</id>
         	<name>72e00dd83a08-releases</name>
-        	<url>http://10.194.125.17:8081/artifactory/libs-release-local</url>
+        	<url>http://172.17.0.3:8081/artifactory/libs-release-local</url>
     	    </repository>
 	    <snapshotRepository>
         	<id>snapshots</id>
         	<name>72e00dd83a08-snapshots</name>
-        	<url>http://10.194.125.17:8081/artifactory/libs-snapshot-local</url>
+        	<url>http://172.17.0.3:8081/artifactory/libs-snapshot-local</url>
     	    </snapshotRepository>
     </distributionManagement>
     <!--<distributionManagement>-->
@@ -250,12 +250,12 @@
 	<repository>
                 <id>central</id>
                 <name>72e00dd83a08-releases</name>
-                <url>http://10.194.125.17:8081/artifactory/libs-release-local</url>
+                <url>http://172.17.0.3:8081/artifactory/libs-release-local</url>
         </repository>
         <repository>
 		<id>snapshots</id>
         	<name>72e00dd83a08-snapshots</name>
-        	<url>http://10.194.125.17:8081/artifactory/libs-snapshot-local</url>
+        	<url>http://172.17.0.3:8081/artifactory/libs-snapshot-local</url>
 	</repository>
 
         <!--<repository>-->
