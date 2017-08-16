@@ -42,6 +42,7 @@ node() {
     def relVersion;
     def snmp2xml4j;
     def pom;
+    String BRANCH_NAME=params.BRANCH_NAME
     String relFlag=params.release;
     String dockerFlag=params.docker;
 
