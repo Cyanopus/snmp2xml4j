@@ -257,6 +257,11 @@
         	<name>3a35e4e81c3d-snapshots</name>
         	<url>http://Artifactory:8081/artifactory/libs-snapshot-local</url>
 	</repository>
+	<repository>
+		<id>mvn-repo</id>
+		<name>maven-repo</name>
+		<url>http://Artifactory:8081/artifactory/mvn-repository/</url>
+	</repository>
 
         <!--<repository>-->
             <!--<snapshots>-->
