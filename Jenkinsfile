@@ -52,7 +52,7 @@ node() {
 
         server = Artifactory.server '1';
         rtMaven = Artifactory.newMavenBuild()
-        rtMaven.tool = 'M3'
+        rtMaven.tool = 'maven'
         //withMaven(maven: 'M3', mavenSettingsConfig: '55234634-bcc4-4034-9a07-a1df766290f5');
 
         // Deceide where to release snapshots and where releases
