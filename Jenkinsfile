@@ -28,6 +28,7 @@ properties([
                 string(name: 'docker', defaultValue: 'NO'),
                 string(name: 'relVersion', defaultValue: "1.0.6"),
                 string(name: 'devVersion', defaultValue: '1.0.7-SNAPSHOT'),
+		string(name: 'BRANCH_NAME', defaultValue: 'master')
         ])
 ])
 
