@@ -33,15 +33,15 @@
         <name>iTransformers Labs</name>
         <url>http://itransformers.net</url>
     </organization>
-    <name>snmp2xml4j</name>
-    <url>http://itransformers.net/snmp2xml4j</url>
+    <name>snmp2xml4jval</name>
+    <url>https://github.com/Cyanopus/snmp2xml4jval</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <basedir>.</basedir>
     </properties>
     <issueManagement>
-        <url>https://github.com/iTransformers/snmp2xml4j/issues</url>
+	    <url>https://github.com/Cyanopus/snmp2xml4jval/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
@@ -83,7 +83,7 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/iTransformers/snmp2xml4j</url>
+        <url>https://github.com/Cyanopus/snmp2xml4jval</url>
     </scm>
 
     <modules>
@@ -223,13 +223,13 @@
     <distributionManagement>
             <repository>
         	<id>central</id>
-        	<name>72e00dd83a08-releases</name>
-        	<url>http://172.17.0.3:8081/artifactory/libs-release-local</url>
+        	<name>3a35e4e81c3d-releases</name>
+        	<url>http://Artifactory:8081/artifactory/libs-release-local</url>
     	    </repository>
 	    <snapshotRepository>
         	<id>snapshots</id>
-        	<name>72e00dd83a08-snapshots</name>
-        	<url>http://172.17.0.3:8081/artifactory/libs-snapshot-local</url>
+        	<name>3a35e4e81c3d-snapshots</name>
+        	<url>http://Artifactory:8081/artifactory/libs-snapshot-local</url>
     	    </snapshotRepository>
     </distributionManagement>
     <!--<distributionManagement>-->
@@ -249,13 +249,13 @@
 	    <!--tcljava is provided by SpringSource-->
 	<repository>
                 <id>central</id>
-                <name>72e00dd83a08-releases</name>
-                <url>http://172.17.0.3:8081/artifactory/libs-release-local</url>
+                <name>3a35e4e81c3d-releases</name>
+                <url>http://Artifactory:8081/artifactory/libs-release-local</url>
         </repository>
         <repository>
 		<id>snapshots</id>
-        	<name>72e00dd83a08-snapshots</name>
-        	<url>http://172.17.0.3:8081/artifactory/libs-snapshot-local</url>
+        	<name>3a35e4e81c3d-snapshots</name>
+        	<url>http://Artifactory:8081/artifactory/libs-snapshot-local</url>
 	</repository>
 
         <!--<repository>-->
