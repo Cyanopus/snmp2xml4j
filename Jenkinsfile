@@ -79,7 +79,7 @@ node() {
 
     stage('Unit test') {
 //      sh "mvn clean test"
-        rtMaven.run pom: 'pom.xml', goals: 'clean test -U'
+        rtMaven.run pom: 'pom.xml', goals: 'clean test'
 
     }
 
