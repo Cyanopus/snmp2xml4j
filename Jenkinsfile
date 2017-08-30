@@ -46,6 +46,7 @@ node() {
     String relFlag=params.release;
     String dockerFlag=params.docker;
 
+    env.JAVA_HOME = "/usr/lib/jvm/java-1.8.0-openjdk-amd64/"
 
 
     stage('Preparation') {
